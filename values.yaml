@@ -18,14 +18,14 @@ containerPort:
   name: VALUE_TO_BE_OVERRIDDEN
   containerPort: VALUE_TO_BE_OVERRIDDEN
   protocol: VALUE_TO_BE_OVERRIDDEN
-  applicationInsightsInstrumentationKey: VALUE_TO_BE_OVERRIDDEN
-
+  
 env:
   blobContainerUrl: VALUE_TO_BE_OVERRIDDEN
   storageConnectionString: VALUE_TO_BE_OVERRIDDEN
   blobContainerName: VALUE_TO_BE_OVERRIDDEN
   cosmosdbEndPoint: VALUE_TO_BE_OVERRIDDEN
   cosmosdbKey: VALUE_TO_BE_OVERRIDDEN
+  applicationInsightsInstrumentationKey: VALUE_TO_BE_OVERRIDDEN
 
 service:
   type: ClusterIP
