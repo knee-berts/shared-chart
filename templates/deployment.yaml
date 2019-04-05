@@ -17,7 +17,6 @@ spec:
     metadata:
       labels:
         app: {{ template "shared-chart.name" . }}
-        draft: {{ default "draft-app" .Values.draft }}
         release: {{ .Release.Name }}
       annotations:
         buildID: {{ .Values.buildID }}

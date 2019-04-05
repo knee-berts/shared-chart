@@ -15,5 +15,5 @@ spec:
       protocol: {{ .Values.service.protocol }}
       name: {{ .Values.service.portName }}
   selector:
-    app.kubernetes.io/name: {{ include "shared-chart.name" . }}
-    app.kubernetes.io/instance: {{ .Release.Name }}
+    app: {{ template "shared-chart.name" . }}
+    release: {{ .Release.Name }}
